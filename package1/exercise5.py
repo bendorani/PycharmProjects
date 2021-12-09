@@ -1,0 +1,5 @@
+num=int(input("enter number: "))
+num2=int(input("enter number: "))
+num3=int(input("enter number: "))
+num4=str(f'{num}{num2}{num3}')
+print(f"{num4},{int (num4)*2}")
