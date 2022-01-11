@@ -1,0 +1,5 @@
+sentence=input("enter sentence: ")
+word=input("enter word: ")
+list1=sentence.split()
+list1.index(word)
+print(list1.index(word)+1)
